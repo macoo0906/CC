@@ -20,9 +20,9 @@ int main0()
 		printf("Population> ");
 		scanf("%d", &arr[i].population);
 	}
+	printf("Printing the three cities:\n");
 	for (int i = 0; i < 3; i++)
-	{
-		printf("Printing the three cities:\n");
+	{	
 		printf("%d. %s in %s with a population of %d people\n",i+1, arr[i].name, arr[i].country, arr[i].population);
 	}
 	return 0;
